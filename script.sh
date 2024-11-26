@@ -1,6 +1,7 @@
 #!/bin/bash 
 #Оновлення пакетів
 sudo yum update -y 
+sudo yum install cronie -y 
 
 echo '#!/bin/bash' >> /root/sysinfo.sh
 #Виводить поточну дату
